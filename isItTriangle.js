@@ -11,10 +11,10 @@ function isItTriangle(){
  let sumOfAngles = checkSumOfAngles(Number(angleOfTriangle[0].value), Number(angleOfTriangle[1].value), Number(angleOfTriangle[2].value));
 
  if (sumOfAngles===180) {
-    console.log("yay..! This is a Triangle")
+    outputArea.innerText = "yay..! This is a Triangle";
  }
  else {
-    console.log("It's not a Triangle")
+    outputArea.innerText = "It's not a Triangle";
  }
 }
 

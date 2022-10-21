@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif; 
+body {
+    font-family: 'Poppins', sans-serif;
     background-color: #5451A6;
 }
+
 .navbar h2 {
     color: white;
     font-weight: 200;
@@ -14,6 +15,12 @@ body{
     border: 2px solid #fff;
     border-bottom-left-radius: 20px;
     padding: 20px 20px;
+}
+
+.quiz-heading {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
 }
 
 .list {
@@ -33,40 +40,72 @@ body{
     display: inline;
 }
 
-
-  /* footer-section */
-  .footer{
-    text-align: center;  
+.form-container {
+    margin: 50px;
+    text-align: center;
     color: #fff;
-    border-top-right-radius: 20px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+#btn {
+    padding: 8px 10px;
+    border-radius: 15px;
+    background-color: #5451A6;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#output {
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    margin: 5% 20%;
+}
+
+/* footer-section */
+.footer {
+    text-align: center;
+    color: #fff;
     padding: 20px 10px;
+    margin-top: 5%;
 }
-.footer-list{
+
+.footer-list {
     list-style: none;
-    
+
 }
-.social-link a{
+
+.social-link a {
     text-decoration: none;
     color: #fff;
-    padding: 0px 5px;
 }
-.social-link{
+
+.social-link {
     display: inline;
     padding: 10px;
 }
-.fa-brands , .fa-solid {
+
+.fa-brands,
+.fa-solid {
     font-size: 20px;
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     padding: 5px 5px;
-   background-color: #fff;
-   color: #5451A6;
-   border-radius: 50%;
-    }
-    .fa-solid:hover{
-        padding: 5px 5px;
-        padding: auto;
-        background-color: #fff;
-        color: #5451A6;
-        border-radius: 50%;
-    }
+    background-color: #fff;
+    color: #5451A6;
+    border-radius: 50%;
+}
+
+.fa-solid:hover {
+    padding: 5px 5px;
+    padding: auto;
+    background-color: #fff;
+    color: #5451A6;
+    border-radius: 50%;
+}
